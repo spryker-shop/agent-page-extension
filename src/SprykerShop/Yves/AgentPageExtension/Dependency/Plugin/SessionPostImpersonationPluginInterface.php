@@ -19,10 +19,6 @@ interface SessionPostImpersonationPluginInterface
      * - Executed after the session impersonation.
      *
      * @api
-     *
-     * @param \Generated\Shared\Transfer\CustomerTransfer $customerTransfer
-     *
-     * @return void
      */
     public function execute(CustomerTransfer $customerTransfer): void;
 }
